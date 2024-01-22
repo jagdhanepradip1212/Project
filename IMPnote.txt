@@ -1,0 +1,39 @@
+*//THis is for show latest upload images show in top position(Front-End)
+const images = await Image.find().sort({ createdAt: -1 });
+
+
+*//Multer in node js
+Multer is a node. js middleware for handling multipart/form-data , which is primarily used for uploading files.
+eg. image, video, etc.
+
+*//sharp in node js
+     sharp is a popular Node. js image processing library that supports various image file formats, such as JPEG, PNG, GIF, WebP, AVIF, SVG and TIFF. In this tutorial, you'll use sharp to read an image and extract its metadata, resize, change an image format, and compress an image.
+     sharp can read JPEG, PNG, WebP, AVIF, TIFF, GIF, and SVG image formats.
+
+*//How to solve export ‘useHistory’ was not found in react-router-dom error
+//One of which is the replacement of the useHistory() hook to useNavigate(). 
+//'useHistory' is not defined
+We get this error because the useHistory() hook has been replaced by the useNavigate() hook in react-router-dom v6. We need to change the useHistory hook to the useNavigate hook.
+Using the history instance you can redirect users to another page. The history instance created by React Router uses a Stack( called “History Stack” ), that stores all the entries the user has visited.
+
+*//jsonwebtoken npm 
+jsonwebtoken is an implementation of JSON Web Tokens
+To authenticate a user, a client application must send a JSON Web Token (JWT) in the authorization header of the HTTP request to your backend API. API Gateway validates the token on behalf of your API, so you don't have to add any code in your API to process the authentication.
+
+*//What is Axios?
+Axios is an HTTP client library that allows you to make requests to a given endpoint:
+  -It has good defaults to work with JSON data. 
+  -don't need to set your headers.
+  -Axios has function names that match any HTTP methods. To perform a GET request, you use the .get() method.
+
+
+*// react fether
+   "react-feather": "^2.0.10",
+React Feather is a collection of lightweight, customizable, beautiful, open source, and easy-to-use icons for React.js. It provides a simple way to include ...
+@React Feather is a collection of lightweight, customizable, beautiful, open source, and easy-to-use icons for React.js. It provides a simple way to include icons in your React.js projects using the popular Feather icon set. The icons are rendered as SVG elements, which allows for easy styling and customization. React Feather is available as an npm package and can be easily installed and used in any React.js project. Each icon is designed on a 24X24 px grid, and they are available as an individual SVG file, which can be easily edited and scaled to fit your project's needs.
+
+
+*// useLocation
+The `useLocation` hook is used to return the current location of a react component.
+The `useLocation` uses the `location` object to access the `key, pathname, state, hash` and `search` of the component.
+This can be useful if you'd like to perform some side effect whenever the current location changes.
