@@ -43,3 +43,5 @@ Riding on the back of an open-source library and the promise of flexibility, JSP
 
 *// aysnc
 An async function is a function declared with the async keyword. Async functions always return a promise, and the value returned by the async function will be wrapped in a resolved promise.
+
+*//Await Operator: The await keyword is used inside async functions to wait for a promise to resolve before proceeding further. It pauses the execution of the async function until the awaited promise settles (either resolves or rejects).
