@@ -37,3 +37,9 @@ React Feather is a collection of lightweight, customizable, beautiful, open sour
 The `useLocation` hook is used to return the current location of a react component.
 The `useLocation` uses the `location` object to access the `key, pathname, state, hash` and `search` of the component.
 This can be useful if you'd like to perform some side effect whenever the current location changes.
+
+*//jspdf
+Riding on the back of an open-source library and the promise of flexibility, JSPDF allows you to generate PDFs from various sources, including HTML content, images, and even existing PDFs. Being an open-source library, it makes it free to use, modify and accommodate any specific need.
+
+*// aysnc
+An async function is a function declared with the async keyword. Async functions always return a promise, and the value returned by the async function will be wrapped in a resolved promise.
